@@ -15,8 +15,7 @@ public class MainClass {
 
         for (Map.Entry<String, Integer> pair: res.entrySet()) {
 
-            if (pair.getValue() < 2)
-                System.out.println(pair.getKey());
+                System.out.println(pair.getKey()+"-"+pair.getValue());
         }
 
     }
@@ -53,10 +52,13 @@ public class MainClass {
             "Perl",
             "Cobol"
         ));
-
+/*
         System.out.println("Print double...");
         printDouble(dictionary );
         System.out.println("Print single...");
+        printSingle(dictionary );
+*/
+        System.out.println("Print words...");
         printSingle(dictionary );
 
     }
