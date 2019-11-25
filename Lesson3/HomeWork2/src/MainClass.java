@@ -18,6 +18,7 @@ public class MainClass {
         phoneBook.add("Сидоров",1234547);
         phoneBook.add("Сидоров",1234517);
 
+/*
         Scanner sc = new Scanner(System.in);
         String input;
 
@@ -34,6 +35,31 @@ public class MainClass {
            System.out.println("Для абонента "+input+ ((phones == null)?" номера не найдены!" :" найдены следующие номера: "+phones));
 
         }
+*/
+
+        String input = "Иванов";
+        ArrayList<Integer> phones = phoneBook.get(input);
+        System.out.println("Для абонента "+input+ ((phones == null)?" номера не найдены!" :" найдены следующие номера: "+phones));
+
+        input = "Воронин";
+        phones = phoneBook.get(input);
+        System.out.println("Для абонента "+input+ ((phones == null)?" номера не найдены!" :" найдены следующие номера: "+phones));
+
+        input = "Сидоров";
+        phones = phoneBook.get(input);
+        System.out.println("Для абонента "+input+ ((phones == null)?" номера не найдены!" :" найдены следующие номера: "+phones));
+
+        input = "Смирнов";
+        phones = phoneBook.get(input);
+        System.out.println("Для абонента "+input+ ((phones == null)?" номера не найдены!" :" найдены следующие номера: "+phones));
+
+        input = "Петров";
+        phones = phoneBook.get(input);
+        System.out.println("Для абонента "+input+ ((phones == null)?" номера не найдены!" :" найдены следующие номера: "+phones));
+
+        input = "Кацев";
+        phones = phoneBook.get(input);
+        System.out.println("Для абонента "+input+ ((phones == null)?" номера не найдены!" :" найдены следующие номера: "+phones));
 
     }
 
