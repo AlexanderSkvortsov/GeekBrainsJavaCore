@@ -36,7 +36,7 @@ public class MainClass {
 
         }
 */
-
+/*
         String input = "Иванов";
         ArrayList<Integer> phones = phoneBook.get(input);
         System.out.println("Для абонента "+input+ ((phones == null)?" номера не найдены!" :" найдены следующие номера: "+phones));
@@ -60,6 +60,24 @@ public class MainClass {
         input = "Кацев";
         phones = phoneBook.get(input);
         System.out.println("Для абонента "+input+ ((phones == null)?" номера не найдены!" :" найдены следующие номера: "+phones));
+*/
+
+        List <String> familyes = new ArrayList<>(Arrays.asList(
+                "Иванов",
+                "Воронин",
+                "Сидоров",
+                "Смирнов",
+                "Петров",
+                "Кацев"
+            ));
+
+        ArrayList<Integer> phones;
+        for (String fm: familyes) {
+
+            phones = phoneBook.get(fm);
+            System.out.println("Для абонента "+fm+ ((phones == null)?" номера не найдены!" :" найдены следующие номера: "+phones));
+
+        }
 
     }
 
