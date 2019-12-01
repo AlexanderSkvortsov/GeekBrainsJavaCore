@@ -15,6 +15,8 @@ public class Controller {
     @FXML public Button sendButton;
     @FXML public TextField textMessage;
 
+
+
     private void showAlert (){
         Alert errorAlert = new Alert(Alert.AlertType.ERROR);
         errorAlert.setHeaderText("Input not valid");
