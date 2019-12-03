@@ -8,21 +8,32 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.TextArea?>
 <?import java.net.URL?>
+<?import javafx.scene.text.Text?>
 <BorderPane fx:controller="sample.Controller"
             xmlns:fx="http://javafx.com/fxml">
     <stylesheets>
         <URL value ="@/css/style.css"/>
     </stylesheets>
 
-    <padding><Insets top="25" right="25" bottom="25" left="25"/></padding>
+    <padding><Insets top="15" right="25" bottom="25" left="25"/></padding>
 
     <top>
-       <HBox spacing="10" >
-           <padding><Insets top="0" right="0" bottom="25" left="0"/></padding>
-           <TextField fx:id ="textMessage" HBox.hgrow="ALWAYS" onAction="#onPressEnter"/>
+       <GridPane hgap="5" vgap="5" >
 
-           <Button fx:id ="sendButton"  onMouseClicked="#onSendButtonClick"  text = "Send message" />
-       </HBox>
+            <HBox spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="1"  GridPane.columnSpan="1"
+                  GridPane.hgrow="ALWAYS">
+
+               <TextField fx:id ="textMessage" HBox.hgrow="ALWAYS" onAction="#onPressEnter" />
+
+               <Button fx:id ="sendButton"  onMouseClicked="#onSendButtonClick"  text = "Send message" />
+
+              <padding><Insets top="0" right="0" bottom="20" left="0"/></padding>
+           </HBox>
+
+           <Text id="label-text" text="Type a message..."
+                 GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+       </GridPane>
+
     </top>
 
     <center>
