@@ -1,11 +1,12 @@
 import java.util.Arrays;
 
 public class MainClass {
+
     static final int size = 10000000;
     static final int h = size / 2;
     static float[] arr = new float[size];
 
-    static  int threadsNum = 100;
+    static  int threadsNum = 4;
     static  int newArraySize = size/threadsNum;
     static float[][] newAarrays = new float[threadsNum][newArraySize ];
 
@@ -19,6 +20,15 @@ public class MainClass {
         int indexOffset = newArrayIndex*newArraySize;
         for (int i = 0 ;i<newArraySize;i++) {
             newAarrays[newArrayIndex][i] = (float) (newAarrays[newArrayIndex][i] * Math.sin(0.2f + indexOffset / 5) * Math.cos(0.2f + indexOffset / 5) * Math.cos(0.4f + indexOffset / 2));
+            indexOffset++;
+        }
+    }
+
+    private static void methodThree(int newArrayIndex ) {
+
+        int indexOffset = newArrayIndex*newArraySize;
+        for (int i = 0 ;i<newArraySize;i++) {
+            arr[indexOffset] = (float) (arr[indexOffset] * Math.sin(0.2f + indexOffset / 5) * Math.cos(0.2f + indexOffset / 5) * Math.cos(0.4f + indexOffset / 2));
             indexOffset++;
         }
     }
@@ -52,7 +62,6 @@ public class MainClass {
             e.printStackTrace();
         }
 
-
         System.out.println("Method 1: Execution time was "+(System.currentTimeMillis()-a)+" milliseconds");
 
         Arrays.fill(arr,1.00f);
@@ -79,6 +88,29 @@ public class MainClass {
         combineArray();
 
         System.out.println("Method 2: Execution time was "+(System.currentTimeMillis()-a)+" milliseconds");
+
+
+        Arrays.fill(arr,1.00f);
+
+        a = System.currentTimeMillis();
+
+        Thread [] t3 = new Thread[threadsNum];
+
+        for (int i = 0;i<threadsNum;i++) {
+            final int arrayId = i;
+            t3[i]= new Thread(()-> methodThree(arrayId));
+            t3[i].start();
+        }
+
+        for (int i = 0;i<threadsNum;i++) {
+            try {
+                t3[i].join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+        System.out.println("Method 3: Execution time was "+(System.currentTimeMillis()-a)+" milliseconds");
 
     }
 }
