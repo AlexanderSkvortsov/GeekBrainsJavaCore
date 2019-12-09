@@ -7,8 +7,6 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class ClientClass {
-
-
         private int tcpPort;
         private String tcpAddress;
 
@@ -19,15 +17,15 @@ public class ClientClass {
     }
 
     private void clientIn(DataInputStream in){
+        String s = null;
         while (true) {
-            String s = null;
             try {
                 s = in.readUTF();
             } catch (IOException e) {
                 //e.printStackTrace();
                 return;
             }
-            System.out.println("Получено от сервера ->" + s);
+            System.out.println("Получено от сервера -> " + s);
         }
     }
 
@@ -36,11 +34,11 @@ public class ClientClass {
         String s ="";
 
         while (true) {
-            System.out.println("Клиент ожидает ввод....");
+            System.out.println("Клиент ожидает ввод...");
 
             s=sc.nextLine();
 
-            System.out.println("Отправлено серверу  ->" + s);
+            System.out.println("Отправлено серверу  -> " + s);
             try {
                 out.writeUTF(s);
             } catch (IOException e) {
@@ -67,12 +65,9 @@ public class ClientClass {
                     DataInputStream in = new DataInputStream(clientSocket.getInputStream());
                     DataOutputStream out = new DataOutputStream(clientSocket.getOutputStream());
 
-
                     Thread cIn = new Thread(() -> clientIn(in));
                     cIn.start();
-
-                    Thread cOut = new Thread(() -> clientOut(out));
-                    cOut.start();
+                    new Thread(() -> clientOut(out)).start();
 
                     try {
                         cIn.join();

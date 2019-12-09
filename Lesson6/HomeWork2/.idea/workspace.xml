@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638e7439-9323-491d-a23e-8cecdcfdaf8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWork1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork1/HomeWork1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork1/src/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork1/src/server/ServerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/ClientClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork1/out/production/HomeWork1/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork1/out/production/HomeWork1/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork1/out/production/HomeWork1/server/ServerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork1/out/production/HomeWork1/server/ServerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork1/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork1/src/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork1/src/server/ServerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork1/src/server/ServerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/ClientClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/ClientClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/MainClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/ClientClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+            <state relative-caret-position="176">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -68,8 +69,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1608" />
-    <option name="height" value="908" />
+    <option name="width" value="1376" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,8 +106,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,9 +167,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1608" height="908" extended-state="6" />
+    <frame x="-4" y="-4" width="1376" height="776" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25609756" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25942686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -177,7 +178,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21518987" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21428572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4620253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -201,15 +202,15 @@
     <entry file="file://$PROJECT_DIR$/src/src/server/ServerClass.java" />
     <entry file="file://$PROJECT_DIR$/src/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        <state relative-caret-position="176">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/ClientClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

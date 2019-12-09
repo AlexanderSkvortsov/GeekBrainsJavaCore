@@ -17,45 +17,37 @@ public class ServerClass {
     }
 
     private void serverIn(DataInputStream in){
+        String s = null;
         while (true) {
-            String s = null;
             try {
                 s = in.readUTF();
             } catch (IOException e) {
                 //e.printStackTrace();
                 return;
             }
-            System.out.println("Получено от клиента ->" + s);
+            System.out.println("Получено от клиента -> " + s);
         }
     }
 
-    private void servertOut(DataOutputStream out){
+    private void serverOut(DataOutputStream out){
         Scanner sc = new Scanner(System.in);
         String s ="";
 
         while (true) {
-            System.out.println("Сервер ожидает ввод....");
-
-                s=sc.nextLine();
-
-
-           System.out.println("Отправлено клиенту ->" + s);
+           System.out.println("Сервер ожидает ввод....");
+           s=sc.nextLine();
+           System.out.println("Отправлено клиенту -> " + s);
            try {
                out.writeUTF(s);
            } catch (IOException e) {
                //e.printStackTrace();
                return;
            }
-
-
         }
-
     }
 
     public void serverStart() {
-
         try {
-
             ServerSocket serverSocket = new ServerSocket(tcpPort);
 
             System.out.println("Сервер запущен на порту " + tcpPort + ", ожидаем подключения...");
@@ -67,20 +59,16 @@ public class ServerClass {
                 DataOutputStream out = new DataOutputStream(socket.getOutputStream());
 
                 Thread sIn = new Thread(() -> serverIn(in));
-                Thread sOut = new Thread(() -> servertOut(out));
-
                 sIn.start();
-                sOut.start();
+                new Thread(() -> serverOut(out)).start();
+
                 try {
                     sIn.join();
                     System.out.println("Соединение потеряно, ожидание соединения...");
-
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
