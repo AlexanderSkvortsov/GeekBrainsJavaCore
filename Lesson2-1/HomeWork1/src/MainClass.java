@@ -17,7 +17,7 @@ public class MainClass {
 
     //2. Написать метод, который преобразует массив в ArrayList;
     private static <T> ArrayList arrayToList(T[] array){
-        return new ArrayList(Arrays.asList(array));
+        return new ArrayList<> (Arrays.asList(array));
     }
 
     public static void main(String[] args) {
