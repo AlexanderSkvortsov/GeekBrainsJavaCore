@@ -4,6 +4,8 @@ import java.util.List;
 
 public class MainClass {
 
+
+
     //1. Написать метод, который меняет два элемента массива местами (массив может быть любого ссылочного типа);
     private static void xchange(Object[] arr, int position_1, int position_2) throws IndexOutOfBoundsException{
         if ((position_1<arr.length) && (position_2<arr.length)){
@@ -16,7 +18,7 @@ public class MainClass {
     }
 
     //2. Написать метод, который преобразует массив в ArrayList;
-    private static <T> ArrayList arrayToList(T[] array){
+    private static <T> ArrayList<T> arrayToList(T[] array){
         return new ArrayList<> (Arrays.asList(array));
     }
 
@@ -25,6 +27,14 @@ public class MainClass {
         System.out.println(Arrays.toString(intArray));
         xchange(intArray, 2,3);
         System.out.println(Arrays.toString(intArray));
+
+        intArray[6]=10;
+
+        Object Obj = new Integer(10);
+        String S = (String) Obj;
+
+        System.out.println(S);
+
 
         Float[] floatArray = {1f,2f,3f,4f,5f};
         ArrayList fArray = arrayToList(floatArray);

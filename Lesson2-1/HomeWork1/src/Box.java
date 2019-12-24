@@ -32,8 +32,8 @@ public class Box<T extends Fruit > {
     }
 
 
-    public boolean compareTo(Box o) {
-        return (o.getWeight()-getWeight())<0.01F;
+    public boolean compareTo(Box<?> o) {
+        return Math.abs(o.getWeight()-getWeight())<0.01F;
     }
 
     public void anotherBoxTo(Box<T> o) {

@@ -1,5 +1,5 @@
-public class Fruit {
-    float weigh = 0;
+public abstract class  Fruit {
+    private float weigh;
 
     public Fruit(float weigh) {
         this.weigh = weigh;
