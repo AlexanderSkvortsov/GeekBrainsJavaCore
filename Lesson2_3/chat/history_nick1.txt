@@ -1,0 +1,5 @@
+nick1 : hello
+nick1 : how are you?
+nick1 : fine?
+nick1 : you are here?
+nick1 : ???
