@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e985f6c1-d010-4951-ac4b-b0b9bfe9cac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/server/Server.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/server/src/main/java/server/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2032">
-              <caret line="135" column="37" lean-forward="true" selection-start-line="135" selection-start-column="37" selection-end-line="135" selection-end-column="37" />
+              <caret line="135" column="37" selection-start-line="135" selection-start-column="37" selection-end-line="135" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -41,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/server/SQLHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="1088">
               <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
             </state>
           </provider>
@@ -50,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/server/SimpleAuthService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
+            <state relative-caret-position="784">
               <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="e#1371#1372#0" expanded="true" />
@@ -63,12 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="256">
+              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -89,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/client/History.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="224">
               <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -262,6 +260,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578935717798" />
@@ -336,9 +335,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Start" />
-      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -378,7 +377,7 @@
     <frame x="-4" y="-4" width="1376" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18552037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18778281" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -398,7 +397,6 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3298731" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -408,6 +406,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3295626" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,8 +433,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/reg.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/client/RegController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -445,8 +444,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -486,6 +485,38 @@
     <entry file="file://$PROJECT_DIR$/history/history_qwe.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2032">
+          <caret line="135" column="37" selection-start-line="135" selection-start-column="37" selection-end-line="135" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/SQLHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/SimpleAuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/client/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1696">
@@ -499,7 +530,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/client/History.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="224">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -511,46 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/SQLHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/SimpleAuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2032">
-          <caret line="135" column="37" lean-forward="true" selection-start-line="135" selection-start-column="37" selection-end-line="135" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="256">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
     </entry>

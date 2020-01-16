@@ -42,6 +42,7 @@ public class Server {
             e.printStackTrace();
         } finally {
             SQLHandler.disconnect();
+            service.shutdown();
             try {
                 server.close();
             } catch (IOException e) {
